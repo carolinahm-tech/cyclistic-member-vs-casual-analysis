@@ -33,6 +33,22 @@ Identify behavioral patterns between annual members and casual riders in order t
 
 ---
 
+## Sample SQL Query
+
+Below is an example of the aggregation used to compare total rides between annual members and casual riders:
+
+```sql
+SELECT
+  member_casual,
+  COUNT(*) AS total_rides
+FROM rides
+GROUP BY member_casual;
+```
+
+This aggregation was later used to calculate ride ratios between both segments.
+
+---
+
 ## Key Insights
 
 ### User Behavior Patterns
@@ -55,6 +71,15 @@ Identify behavioral patterns between annual members and casual riders in order t
 - Promote weekday commuting benefits to reinforce member value proposition.
 - Launch seasonal subscription incentives before peak summer demand.
 - Implement targeted weekend promotions to attract and convert casual riders.
+
+---
+
+## Potential Business Impact
+
+If implemented, these strategies could:
+- Increase member conversion rate
+- Improve retention during low season
+- Optimize marketing spend through behavioral targeting
 
 ---
 
@@ -82,3 +107,5 @@ Identify behavioral patterns between annual members and casual riders in order t
 - SQL (Google BigQuery)
 - Power BI
 - GitHub
+
+This project demonstrates how behavioral segmentation can drive actionable marketing strategy through data.

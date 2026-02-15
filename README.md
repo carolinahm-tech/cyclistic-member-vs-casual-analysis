@@ -1,5 +1,7 @@
 # Cyclistic Member vs Casual Analysis
 
+🇪🇸 Spanish version available here: [README_ES.md](README_ES.md)
+
 ## Business Context
 
 Cyclistic is a bike-sharing company seeking to convert casual riders into annual members. Understanding behavioral differences between both user segments is critical to designing effective marketing strategies.
